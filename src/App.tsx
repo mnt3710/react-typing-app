@@ -27,7 +27,7 @@ const App = () => {
 		display:"flex",
 		justifyContent:"center",
 		alignItems: "center",
-		height: "43vh",
+		height: "44vh",
 		width: "50vw",
 		border:"1px solid"
 	}
@@ -154,7 +154,9 @@ const App = () => {
 					{(!typing && position===0) && <MyButton onClick={typingToggle}>start</MyButton>}
 					{resetButtonFlag && <MyButton onClick={refresh}>reset</MyButton>}
 				</div>
-				{(resetButtonFlag&&stayFlag) && cpmText}
+				<div className="cpm">
+					{(resetButtonFlag&&stayFlag) && cpmText}
+				</div>
 				</Box>
 				</Box>
 				</Card>

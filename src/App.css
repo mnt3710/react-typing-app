@@ -51,4 +51,6 @@
   margin:10px;
 }
 
-
+.cpm{
+  font-size: calc(7px + 2vmin);
+}

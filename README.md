@@ -14,8 +14,8 @@
 <li>startボタンを押さずともタイピングを始めればタイマーが作動するようにしたい
 <li>タイプする文字を英単語にしたい
 <br>
-
-npx create-react-app (app-name) --typescript
-npm install @material-ui/core
-npm install --save use-interval --force //強制的にしてるから注意
-webpack.config.jsを作る
+<h3>備考</h3>
+npx create-react-app (app-name) --typescript<br>
+npm install @material-ui/core<br>
+npm install --save use-interval --force //強制的にしてるから注意<br>
+webpack.config.jsを作る<br>

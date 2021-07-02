@@ -63,6 +63,7 @@ const App = () => {
 	}
 	const handleKey = (e: React.KeyboardEvent<HTMLDivElement>) =>{
 		if(typing){
+			new Audio("./music/bgMusic.mp3").play();
 			let textSpans = document.querySelector("#textbox")!.children;
 			if(e.key === text[position]){
 				textSpans[position].classList.add("typed-letters");

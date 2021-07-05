@@ -7,7 +7,7 @@ import Card from "@material-ui/core/Card";
 
 const App = () => {
 	const [typing, setTyping] = useState(false);
-	const [text,setText] = useState("Please click under start button!");
+	const [text,setText] = useState("Click the start button below!");
 	const [position, setPosition] = useState(0);
 	const [typo, setTypo] = useState(new Array(0));
 

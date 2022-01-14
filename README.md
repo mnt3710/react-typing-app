@@ -19,3 +19,7 @@ npx create-react-app (app-name) --typescript<br>
 npm install @material-ui/core<br>
 npm install --save use-interval --force //強制的にしてるから注意<br>
 webpack.config.jsを作る<br>
+  
+  
+  <h3>url</h3>
+https://mnt3710.github.io/react-typing-app/
